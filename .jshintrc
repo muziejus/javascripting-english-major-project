@@ -11,6 +11,7 @@
   "undef"         : true,     // true: Require all non-global variables to be declared (prevents global leaks)
   "strict"        : "implied",     // true: Requires all functions run in ES5 Strict Mode
   "varstmt"       : true,    // true: Disallow any var statements. Only `let` and `const` are allowed.
+  "eqeqeq"        : true,
 
   // Relaxing
   "esversion"     : 6,
