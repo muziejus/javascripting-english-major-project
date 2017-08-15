@@ -1,7 +1,7 @@
 # Day 1 of being a JavaScripting English Major
 
 Hopefully, you are a student in the course, [*The JavaScripting English
-Major*](http://the-javascripting-english-major.moacir.com),” in which case you
+Major*](http://the-javascripting-english-major.moacir.com), in which case you
 should be forking this repository by clicking on the “Fork” button in the
 top-right of this page.
 
