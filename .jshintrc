@@ -1,7 +1,7 @@
 {
   // Bare-bones default JSHint configuration file for
   // The JavaScripting English Major
-  // (http://the-javascripting-english-major.moacir.com)
+  // (http://the-javascripting-english-major.org)
 
   // See http://jshint.com/docs/ for more details
 
@@ -22,5 +22,5 @@
   "jquery"        : true,
 
   // Custom Globals
-  "predef"        : ["L"]    // predefined env variables.
+  "predef"        : ["L", "showdown"]    // predefined env variables.
 }
