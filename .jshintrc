@@ -22,5 +22,5 @@
   "jquery"        : true,
 
   // Custom Globals
-  "predef"        : ["L", "showdown"]    // predefined env variables.
+  "predef"        : ["L"]    // predefined env variables.
 }
