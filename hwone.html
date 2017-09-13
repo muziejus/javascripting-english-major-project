@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>My JavaScripting English Major Project</title>
+  </head>
+  <body>
+    <h1>This is HW1</h1>
+    "Check console log for exercises."
+    <script>
+    console.log("This is how to log a backslash:");
+    console.log("\\");
+    console.log("This is how to use backslash to log text that typically is used another way in javascript:");
+    console.log("Here's a quotation! \"hello there\"");
+    var lemon, orange;
+    lemon = true;
+    orange = "true";
+    console.log(lemon === orange);
+    console.log("Above concludes that true in quotes and true without quotes are not the same. With quotes it is not a boolean, just a string.");
+    console.log("10 % 7 = 3 because it is the remainder after you divide 10 by 7. Let's double check:");
+    console.log(10%7);
+    var oddnumber, evennumber;
+    oddnumber = 7;
+    evennumber = 8;
+    console.log(oddnumber % 2 === 0);
+    console.log(evennumber % 2 === 0);
+    console.log(0.2 + 0.1);
+    console.log("0.2 and 0.1 added together is coming out to 0.30000000000000004. I'm not sure why. Maybe the javascript has some weird trouble when it comes to added floats?");
+    console.log("banana" + 1);
+    console.log(1 + "banana");
+    console.log("prints them together going from left to right because it reads left to right (after PEMDAS, when relevant I think).");
+    var tipRate, bill, billPlusTip;
+    tipRate = 0.20;
+    bill = 10.00;
+    billPlusTip = bill + (tipRate * bill);
+    console.log("You should pay $" + billPlusTip, "because the service was good.");
+    </script>
+  </body>
+</html>
