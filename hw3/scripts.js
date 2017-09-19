@@ -8,3 +8,5 @@ for (let i = 1; i <= userInput; i = i +1){
   }
 
 }
+
+//right now most of my mistakes are github mistakes. It always confuses me. Think I'm starting to get the hang of it though
