@@ -3,6 +3,7 @@ $("#glosses").html("<p>The glosses will go here.</p>");
 // 2. Set the content of #prologue.
 $.getJSON("https://the-javascripting-english-major.org/prologue.json",
 function(data){ // Note the data variable!
+  console.log(data);
   let prologueText; // Define the variable you didn’t need before.
   prologueText = "<blockquote><p>"; // Open the tags.
   // Now you can iterate over the data variable’s .lines property:
