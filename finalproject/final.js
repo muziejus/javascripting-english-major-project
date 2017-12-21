@@ -87,13 +87,17 @@ popupAnchor:  [0,0] // point from which the popup should open relative to the ic
     function markerOnClick(e)
 {
   if(category==="culture"){
-  $("#info").html("hi");
+  $("#info2").html("<h2 style='text-align: center; font-family: impact, sans-serif; color:#78BE59'>Cultural and Historical References</h2><pstyle='text-align: left;'>text here</p>");
 }
 else if(category==="nationality"){
-$("#info").html("oh hi");
+$("#info2").html("<h2 style='text-align: center; font-family: impact, sans-serif; color:#A39B36'>Nationalities Mentioned</h2> <p style='text-align: left;'>text here</p>");
 }
 else if(category==="august\'s life"){
-$("#info").html("ahi");
+$("#info2").html("<h2 style='text-align: center; font-family: impact, sans-serif; color:#427E94'>Places in August's Life</h2><pstyle='text-align: left;'>text here</p>");
+}
+else{
+  $("#info2").html("<h2 style='text-align: center; font-family: impact, sans-serif; color:#B85262'>Places in Other's Lives</h2><pstyle='text-align: left;'>text here</p>");
+
 }
 }
 

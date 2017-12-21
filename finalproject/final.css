@@ -1,7 +1,7 @@
 body{
   background-color: #143C66;
   padding-top: 2%;
-  font-family:Impact;
+  font-family:Impact, sans-serif;
 
 }
 h1{
@@ -22,7 +22,12 @@ p{
   text-align: center;
 font-family:helvetica;
 }
-#info{
+#instruct{
+    color: white;
+  text-align: center;
+font-family:helvetica;
+}
+#info, #info2{
   padding: 20px;
   background-color: white;
   border-radius: 20px;
