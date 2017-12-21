@@ -38,8 +38,13 @@ font-family:helvetica;
 max-width: 100px;
 }
 #view{
+  cursor: pointer;
   max-width: 10%;
 }
 #view2{
+  cursor: pointer;
   max-width: 12%;
+}
+#visual{
+  max-width: 10px;
 }

@@ -13,6 +13,30 @@
     <div class="container">
       <h1><img src="icons/icon.png" id="logo">Another Brooklyn Mapped<img src="icons/icon.png" id="logo"></h1>
       <div id="first-map" class="map"></div>
+<script>
+      function openpopIrish(){
+      firstMap.setView([53.0,-8.0],10);
+    }
+    function openpopBrooklyn(){
+      firstMap.setView([40.6912206,-73.9977631],12);
+    }
+    function openpopItalian(){
+      firstMap.setView([42.83333,12.83333],10);
+    }
+    function openpopSweetGrove(){
+      firstMap.setView([35.5175,-86.5804],10);
+    }
+    function openpopIndonesia(){
+      firstMap.setView([-5.0,120.0],10);
+    }
+    function openpopFiji(){
+      firstMap.setView([-18.0,178.0],10);
+    }
+    function openpopNoP(){
+      firstMap.setView([17.14078,121.289057],10);
+    }
+  </script>
+
       <p id="instruct"><img src="icons/newyork.png" id="view" onclick="changeView();">
 
         Click to change map view<img src="icons/world.png" id="view2" onclick="changeView2();"></p>
