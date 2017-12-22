@@ -1,0 +1,50 @@
+body{
+  background-color: #143C66;
+  padding-top: 2%;
+  font-family:Impact, sans-serif;
+
+}
+h1{
+text-align: center;
+color: white;
+}
+.map {
+  height: 400px;
+  border-radius: 20px;
+
+}
+p{
+  padding-top: 2%;
+  text-align: left;
+}
+#instruct{
+    color: white;
+  text-align: center;
+font-family:helvetica;
+}
+#instruct{
+    color: white;
+  text-align: center;
+font-family:helvetica;
+}
+#info, #info2{
+  padding: 20px;
+  background-color: white;
+  border-radius: 20px;
+  font-family:helvetica;
+
+}
+#logo{
+max-width: 100px;
+}
+#view{
+  cursor: pointer;
+  max-width: 10%;
+}
+#view2{
+  cursor: pointer;
+  max-width: 12%;
+}
+#visual{
+  max-width: 10px;
+}

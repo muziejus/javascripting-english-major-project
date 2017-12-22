@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Another Brooklyn Map</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css" integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ=="
+   crossorigin=""/>
+    <link rel="stylesheet" href="final.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1><img src="icons/icon.png" id="logo">Another Brooklyn Mapped<img src="icons/icon.png" id="logo"></h1>
+      <div id="first-map" class="map"></div>
+<script>
+      function openpopIrish(){
+      firstMap.setView([53.0,-8.0],10);
+    }
+    function openpopBrooklyn(){
+      firstMap.setView([40.6912206,-73.9977631],12);
+    }
+    function openpopItalian(){
+      firstMap.setView([42.83333,12.83333],10);
+    }
+    function openpopSweetGrove(){
+      firstMap.setView([35.5175,-86.5804],10);
+    }
+    function openpopIndonesia(){
+      firstMap.setView([-5.0,120.0],10);
+    }
+    function openpopFiji(){
+      firstMap.setView([-18.0,178.0],10);
+    }
+    function openpopNoP(){
+      firstMap.setView([17.14078,121.289057],10);
+    }
+    function openpopVietnam(){
+      firstMap.setView([16.16667,107.83333],10);
+    }
+    function openpopBiafra(){
+      firstMap.setView([6.4499982,7.499998],10);
+    }
+    function openpopNewYork(){
+      firstMap.setView([40.71427,-74.00597],10);
+    }
+    function openpopThomas(){
+      firstMap.setView([40.6710754,-73.9899206],13);
+    }
+    function openpopKings(){
+      firstMap.setView([40.6567192,-73.9461696],13);
+    }
+  </script>
+
+      <p id="instruct"><img src="icons/newyork.png" id="view" onclick="changeView();">
+
+        Click to change map view<img src="icons/world.png" id="view2" onclick="changeView2();"></p>
+        <div id="info2">
+      <h2 id="info" style="color:#143C66; font-family: impact, sans-serif; text-align:center">Click locations to explore the novel.</h2>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js" integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log==" crossorigin=""></script>
+    <script src="final.js"></script>
+  </body>
+</html>

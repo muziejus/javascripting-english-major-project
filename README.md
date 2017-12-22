@@ -1,18 +1,6 @@
-# Day 1 of being a JavaScripting English Major
+Tamar Palgon
+September 12th
 
-Hopefully, you are a student in the course, [*The JavaScripting English
-Major*](http://the-javascripting-english-major.org), in which case you
-should be forking this repository by clicking on the “Fork” button in the
-top-right of this page.
+My goal for the final project is to get back into JavaScript (it's been a while), learn some new website building stuff, all while diving into an awesome book. I'm not really sure what this project entails, but I remember a sort of mapping project I had a while back was a huge challenge for me, so I'm excited to tackle it again in a whole, new way. 
 
-Forking it copies everything over to a new repository that you control, and
-from there, the limits to your project are limited to your own imagination.
-And GitHub’s terms of service, of course.
-
-Once you’ve forked it, you can clone it into Atom and start hacking away. If
-you don’t know how to clone into Atom, check out the [Atom
-section](http://the-javascripting-english-major.org/1-environment#atom)
-of the first chapter of *The JavaScripting English Major*.
-
-© 2017, [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) by
-[Moacir P. de Sá Pereira](http://moacir.com).
+I hope my website will be fun in some way, and I hope to bring the cartoon-y style I've used in previous coding homeworks and projects into this end of semester project.  
