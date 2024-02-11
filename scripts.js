@@ -1,8 +1,12 @@
-let userInput;
-userInput = prompt("What do you want to have for dinner?", "Type your answer here.");
-if ( userInput === "burrito" ) {
-    $("#response").html("Brilliant choice!");
-} else {
-    $("#response").html("Don't you want a burrito?");
-}
+let tipCalculator;
+tipCalculator = function(total, tipRate) {
+    //Calculate the percentage of the total as a variable "tipAmount"
+    let tipAmount;
+    tipAmount = tipRate * total;
+    //Change #response to tell us the tip amount
+    $("#response").html("Your tip is $" + tipAmount);
+};
+//Now execute the function, passing a total of $50 and rate of 20%
+tipCalculator(100, 0.2);
+
 
