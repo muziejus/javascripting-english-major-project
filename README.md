@@ -1,10 +1,8 @@
-# Day 1 of being a JavaScripting English Major (2/9/2024)
-
-Tasks: Forked the respository and cloned it in VSCode because Atom is dead. In VSCode, command palette is in the view menu. Click it and search for "Git: Clone." 
-
+# Week 1-3 Notes
 Also using David Flanagan's "Javascript: The Definitive Guide" 7th edition.
 
-Notes: "null" is an object that indicates the lack of information, such as an unanswered question on a survey. "undefined" is different: it means information not yet given.
+Forked the respository and cloned it in VSCode because Atom is dead. In VSCode, command palette is in the view menu. Click it and search for "Git: Clone." 
+"null" is an object that indicates the lack of information, such as an unanswered question on a survey. "undefined" is different: it means information not yet given.
 
 declaring variables: define them at the top. "const" is for permanently assigning a value. You can declare using let without immediately assigning a value (without initializing the constant). Some people only use const for things like pi or version numbers that truly never change. A declaration that appears outside of any code blocks is a global variable or constant; it's scope is the file or html document it is contained within.
 
