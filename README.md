@@ -21,3 +21,9 @@ line1text = line1.map(function(word) {
 
 $("#prologue").html("<p>" + line1text + "<br /></p>");
 ~~~
+Function expressions are inside a larger expression or statement; the name is optional
+
+The above example has a function named map or line1.map. It has one parameter, word. It has one statement "return word.text". Map is a method. It finds the text properties in the line 1 array by executing the function word by word
+
+Objects are a way of storing data; functions are a way of storing actions that you are going to take again and again
+(Loralyn tutorial: https://www.youtube.com/watch?v=nDPv8R2lFa4)
